@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - AVANZA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header id="header">
+        <nav id="main-nav" class="container">
+            <div id="logo">
+                <a href="index.html" class="logo-link">AVANZA</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contáctanos</h1>
+            <p>Estamos aquí para ayudarte a crear el espacio de trabajo perfecto</p>
+        </div>
+    </section>
+
+    <!-- Información de Contacto -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="contact-info">
+                    <h2>Información de Contacto</h2>
+                    
+                    <div class="contact-item">
+                        <h4>📍 Ubicación</h4>
+                        <p>Zona 10, Ciudad de Guatemala<br>
+                        Guatemala, C.A.</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>📞 Teléfonos</h4>
+                        <p>Oficina: (+502) 2234-5678<br>
+                        Móvil: (+502) 5678-9012</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>✉️ Email</h4>
+                        <p>info@avanza.com.gt<br>
+                        ventas@avanza.com.gt</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>🕒 Horarios de Atención</h4>
+                        <p>Lunes - Viernes: 8:00 AM - 6:00 PM<br>
+                        Sábados: 9:00 AM - 2:00 PM<br>
+                        Domingos: Cerrado</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h2>Solicitar Cotización</h2>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" id="empresa" name="empresa">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="(+502) XXXX-XXXX" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="servicio">Tipo de Servicio</label>
+                            <select id="servicio" name="servicio">
+                                <option value="">Seleccionar...</option>
+                                <option value="mobiliario">Mobiliario Corporativo</option>
+                                <option value="diseno">Diseño de Oficinas</option>
+                                <option value="tecnologia">Tecnología Audiovisual</option>
+                                <option value="consultoria">Consultoría</option>
+                                <option value="mantenimiento">Mantenimiento</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="presupuesto">Presupuesto Estimado (GTQ)</label>
+                            <select id="presupuesto" name="presupuesto">
+                                <option value="">Seleccionar rango...</option>
+                                <option value="10000-25000">Q 10,000 - Q 25,000</option>
+                                <option value="25000-50000">Q 25,000 - Q 50,000</option>
+                                <option value="50000-100000">Q 50,000 - Q 100,000</option>
+                                <option value="100000-250000">Q 100,000 - Q 250,000</option>
+                                <option value="250000+">Q 250,000+</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje *</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Describe tu proyecto o necesidades..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Enviar Solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa o Imagen de Ubicación -->
+    <section class="section" style="background-color: #f8fafc;">
+        <div class="container">
+            <h2 class="section-title">Nuestra Ubicación</h2>
+            <div class="location-info">
+                <div class="location-image">
+                    <img src="/placeholder.svg?height=300&width=600" alt="Ubicación AVANZA" loading="lazy">
+                </div>
+                <div class="location-details">
+                    <h3>Visítanos en Nuestro Showroom</h3>
+                    <p>Te invitamos a conocer nuestro showroom en Zona 10, donde podrás ver y probar nuestros productos de primera mano.</p>
+                    <ul>
+                        <li>✅ Exhibición de mobiliario completo</li>
+                        <li>✅ Demostraciones de tecnología</li>
+                        <li>✅ Consulta personalizada gratuita</li>
+                        <li>✅ Estacionamiento disponible</li>
+                    </ul>
+                    <p><strong>Cita previa recomendada</strong> - Llámanos para agendar tu visita</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h4>¿Ofrecen financiamiento?</h4>
+                    <p>Sí, trabajamos con diferentes opciones de financiamiento y planes de pago flexibles para proyectos corporativos.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>¿Cuánto tiempo toma un proyecto de diseño?</h4>
+                    <p>Depende del tamaño del proyecto. Un diseño básico puede tomar 1-2 semanas, mientras que proyectos completos pueden requerir 4-8 semanas.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>¿Incluyen la instalación?</h4>
+                    <p>Sí, todos nuestros proyectos incluyen instalación profesional realizada por nuestro equipo técnico especializado.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>¿Trabajan fuera de la Ciudad de Guatemala?</h4>
+                    <p>Sí, atendemos proyectos en toda Guatemala. Para proyectos fuera del área metropolitana, se evalúan costos de traslado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AVANZA</h3>
+                    <p>Transformando espacios de trabajo con diseño moderno y tecnología avanzada.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📍 Zona 10, Ciudad de Guatemala</p>
+                    <p>📞 (+502) 2234-5678</p>
+                    <p>📱 (+502) 5678-9012</p>
+                    <p>✉️ info@avanza.com.gt</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="productos.html">Mobiliario Corporativo</a></li>
+                        <li><a href="servicios.html">Diseño de Oficinas</a></li>
+                        <li><a href="productos.html#tecnologia">Tecnología</a></li>
+                        <li><a href="contacto.html">Cotizaciones</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Horarios</h4>
+                    <p>Lunes - Viernes: 8:00 AM - 6:00 PM</p>
+                    <p>Sábados: 9:00 AM - 2:00 PM</p>
+                    <p>Domingos: Cerrado</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AVANZA. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
